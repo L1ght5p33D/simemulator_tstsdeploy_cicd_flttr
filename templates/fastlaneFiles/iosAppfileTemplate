@@ -1,0 +1,25 @@
+app_identifier "${iosAppIdentifier}"
+apple_id "${appleEmail}"
+team_id "${developerPortalTeamId}"
+
+
+#itunes_connect_id "${itunesConnectTeamId}"
+
+#Other Setups
+
+# Example for if credentials on App Store Connect and Apple Developer Portal are different
+#app_identifier $iosAppIdentifier
+#apple_dev_portal_id $appleEmail
+#itunes_connect_id $itunesConnectId
+#team_id $developerPortalTeamId # Developer Portal Team ID
+#itc_team_id $itunesConnectTeamId
+
+
+
+#Example to do different credentials for different lanes
+#for_platform :ios do
+#  team_id '123' # for all iOS related things
+#  for_lane :test do
+#    app_identifier 'com.app.test'
+#  end
+#end

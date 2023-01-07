@@ -1,0 +1,4 @@
+ storePassword=$androidKeyStorePass
+ keyPassword=$androidKeyPass
+ keyAlias=$androidKeyAlias
+ storeFile=$androidKeyStorePath
